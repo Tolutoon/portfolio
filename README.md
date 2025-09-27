@@ -8,7 +8,3 @@
 - Tailwind CSS  
 - GSAP (GreenSock Animation Platform)  
 - React Router  
-
-
-## Author
-Built by Tolu (https://github.com/tolutoon)  
