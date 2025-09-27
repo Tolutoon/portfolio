@@ -16,10 +16,10 @@ const Footer = () => {
         <div>
           <h5 className='font-medium mb-5'>Services</h5>
           <ul className='flex flex-col gap-2 text-base lg:text-lg'>
-            <li><a href="">Web Design</a></li>
-            <li><a href="">UI / UX</a></li>
-            <li><a href="">Web Development</a></li>
-            <li><a href="">Branding</a></li>
+            <li><a href="">Design</a></li>
+            {/* <li><a href="">UI / UX</a></li> */}
+            <li><a href="">Mobile Development</a></li>
+            <li><a href="">Illustration</a></li>
           </ul>
         </div>
         <div>
@@ -33,7 +33,7 @@ const Footer = () => {
           <h5 className='font-medium mb-5'>Contact</h5>
           <ul className='flex flex-col gap-2 text-base lg:text-lg'>
             <li>getolopadetolu@gmail.com</li>
-            <li>+1 210 123 4509</li>
+            <li>+234 816 958 0103</li>
           </ul>
         </div>
       </footer>
