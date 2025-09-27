@@ -19,7 +19,7 @@ const Services = () => {
             <div className='flex gap-6 lg:gap-8'>
               <span className="text-gray-400 text-lg lg:text-2xl font-heading tracking-wide block mb-4">01</span>
               <h2 className="text-[8vw] md:text-6xl font-heading font-bold leading-[1]">
-                  Web Design <br /> & UI/UX
+                  Mobile App <br /> Development
               </h2>
             </div>
 
@@ -42,7 +42,7 @@ const Services = () => {
             <div className='flex gap-6 lg:gap-8'>
               <span className="text-gray-400 text-lg lg:text-2xl font-heading tracking-wide block mb-4">02</span>
               <h2 className="text-[8vw] md:text-6xl font-heading font-bold leading-[1]">
-                  Shopify <br /> Development
+                  UI <br /> Design
               </h2>
             </div>
 
