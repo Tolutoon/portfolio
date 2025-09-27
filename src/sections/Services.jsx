@@ -26,7 +26,7 @@ const Services = () => {
             {/* Right side */}
             <div className="flex items-center">
               <p className="text-lg lg:text-xl leading-relaxed">
-                  Crafting modern, user-focused websites with clean layouts,
+                  Crafting modern, user-focused mobile apps with clean layouts,
                   thoughtful typography, and smooth interactions. Every design
                   is tailored to deliver both aesthetic appeal and seamless
                   usability.
