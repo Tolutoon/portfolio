@@ -43,7 +43,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className='main-container grid md:grid-cols-2 gap-3 py-6 lg:py-8 max-md:text-center'>
-        <div className='text-base lg:text-lg'>© 2025 JD | All rights reserved</div>
+        <div className='text-base lg:text-lg'>© 2025 Tolu | All rights reserved</div>
         <div className='flex gap-3 justify-center md:justify-end'>
           <a href="">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
