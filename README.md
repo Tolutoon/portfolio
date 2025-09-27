@@ -1,8 +1,8 @@
-# My Portfolio
+# Portfolio
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - React 19  
 - Vite  
 - Tailwind CSS  
@@ -11,4 +11,4 @@
 
 
 ## 👩‍💻 Author
-Built with ❤️ by Tolu (https://github.com/tolutoon)  
+Built by Tolu (https://github.com/tolutoon)  
