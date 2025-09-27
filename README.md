@@ -10,5 +10,5 @@
 - React Router  
 
 
-## 👩‍💻 Author
+## Author
 Built by Tolu (https://github.com/tolutoon)  
