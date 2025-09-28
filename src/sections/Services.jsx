@@ -59,19 +59,19 @@ const Services = () => {
           <div className="main-container grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 items-start">
               
             {/* Left side */}
-            <div className='flex gap-6 lg:gap-8'>
+            {/* <div className='flex gap-6 lg:gap-8'>
               <span className="text-gray-400 text-lg lg:text-2xl font-heading tracking-wide block mb-4">03</span>
               <h2 className="text-[8vw] md:text-6xl font-heading font-bold leading-[1]">
                   Creative <br /> Branding
               </h2>
-            </div>
+            </div> */}
 
             {/* Right side */}
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <p className="text-lg lg:text-xl leading-relaxed">
                   Building strong brand identities through design, storytelling, and visuals that connect with your audience. From logos to full brand systems, I help create a consistent and memorable presence.
               </p>
-            </div>
+            </div> */}
 
           </div>
         </div>
