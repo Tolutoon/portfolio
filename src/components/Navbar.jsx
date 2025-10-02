@@ -52,7 +52,14 @@ const Navbar = () => {
       <div className={`fixed z-20 inset-0 bg-black text-white flex flex-col items-center justify-center text-3xl gap-8 transition-transform duration-500 ${menuOpen ? "translate-y-0" : "-translate-y-full"}`} onClick={() => setMenuOpen(false)}>
         {/* Menu links */}
         <Link to="/" className='menu-link'>Home</Link>
-        <Link to="/projects" className='menu-link'>Resume</Link>
+        <a
+  href="https://drive.google.com/file/d/1f6YG3rFZ5uRdGY6HhoiQfK4Jz6EW3-ay/view?usp=sharing"
+  className="menu-link"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Resume
+</a>
         <Link to="/projects" className='menu-link'>Projects</Link>
         <a href="mailto: getolopadetolu@gmail.com" className='menu-link'>Contact</a>
       </div>
