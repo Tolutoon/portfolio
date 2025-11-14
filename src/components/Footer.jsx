@@ -19,7 +19,7 @@ const Footer = () => {
             <li><a href="">Design</a></li>
             {/* <li><a href="">UI / UX</a></li> */}
             <li><a href="">Mobile Development</a></li>
-            <li><a href="">Illustration</a></li>
+            <li><a href="">Illustrations</a></li>
           </ul>
         </div>
         <div>

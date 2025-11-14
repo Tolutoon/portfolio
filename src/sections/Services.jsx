@@ -26,10 +26,7 @@ const Services = () => {
             {/* Right side */}
             <div className="flex items-center">
               <p className="text-lg lg:text-xl leading-relaxed">
-                  Crafting modern, user-focused mobile apps with clean layouts,
-                  thoughtful typography, and smooth interactions. Every design
-                  is tailored to deliver both aesthetic appeal and seamless
-                  usability.
+              I build Flutter apps that feel clean, modern, and easy to use thoughtfully designed with good typography, smooth animations, and layouts that make the whole experience feel effortless.
               </p>
             </div>
 
@@ -49,7 +46,7 @@ const Services = () => {
             {/* Right side */}
             <div className="flex items-center">
               <p className="text-lg lg:text-xl leading-relaxed">
-                  From custom themes to advanced features, I design and build Shopify stores that boost sales and reflect your brand. Optimized for performance, easy management, and smooth shopping experiences.
+                From custom visuals to polished interactions, I design interfaces that elevate your brand and engage your users. Clean layouts, smooth experiences, and thoughtful details all crafted for clarity, performance, and ease of use.
               </p>
             </div>
 
