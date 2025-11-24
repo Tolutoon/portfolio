@@ -61,7 +61,7 @@ const Navbar = () => {
   Resume
 </a>
         <Link to="/projects" className='menu-link'>Projects</Link>
-        <a href="mailto: getolopadetolu@gmail.com" className='menu-link'>Contact</a>
+        <a href="https://github.com/tolutoon" className='menu-link'>Github</a>
       </div>
     </>
   )
