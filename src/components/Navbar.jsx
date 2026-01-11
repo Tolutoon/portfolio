@@ -60,8 +60,8 @@ const Navbar = () => {
 >
   Resume
 </a>
-        <Link to="/projects" className='menu-link'>Projects</Link>
         <a href="https://github.com/tolutoon" className='menu-link'>Github</a>
+        <Link to="/projects" className='menu-link'>Projects</Link>
       </div>
     </>
   )
