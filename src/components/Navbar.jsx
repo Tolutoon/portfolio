@@ -53,7 +53,7 @@ const Navbar = () => {
         {/* Menu links */}
         <Link to="/" className='menu-link'>Home</Link>
         <a
-  href="https://drive.google.com/file/d/1f6YG3rFZ5uRdGY6HhoiQfK4Jz6EW3-ay/view?usp=sharing"
+  href="https://drive.google.com/file/d/152oS7Hs-9hC91JBikQuLPYL84v4ThZe9/view?usp=sharing"
   className="menu-link"
   target="_blank"
   rel="noopener noreferrer"
