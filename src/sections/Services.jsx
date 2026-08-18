@@ -39,14 +39,14 @@ const Services = () => {
             <div className='flex gap-6 lg:gap-8'>
               <span className="text-gray-400 text-lg lg:text-2xl font-heading tracking-wide block mb-4">02</span>
               <h2 className="text-[8vw] md:text-6xl font-heading font-bold leading-[1]">
-                  UI <br /> Design
+                  Illustration
               </h2>
             </div>
 
             {/* Right side */}
             <div className="flex items-center">
               <p className="text-lg lg:text-xl leading-relaxed">
-                From custom visuals to polished interactions, I design interfaces that elevate your brand and engage your users. Clean layouts, smooth experiences, and thoughtful details all crafted for clarity, performance, and ease of use.
+                From custom visuals to expressive artwork, I create illustrations that elevate your brand and engage your users. Distinct styles, hand-crafted details, and thoughtful storytelling all designed for clarity, personality, and impact.
               </p>
             </div>
 
