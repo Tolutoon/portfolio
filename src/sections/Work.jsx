@@ -13,17 +13,17 @@ const Work = () => {
   const projectsRef = useRef(null);
 
   useGSAP(() => {
-    // Horizontal scroll
-    const projectsWidth = projectsRef.current.scrollWidth;
-    const scrollDistance = projectsWidth - window.innerWidth;
+    // Horizontal scroll: distance is recalculated on every refresh/resize
+    const getScrollDistance = () =>
+      Math.max(0, projectsRef.current.scrollWidth - window.innerWidth);
 
     gsap.to(projectsRef.current, {
-      x: -scrollDistance,
-      ease: "linear",
+      x: () => -getScrollDistance(),
+      ease: "none",
       scrollTrigger: {
         trigger: workRef.current,
-        start: "top center",
-        end: () => `+=${projectsWidth}`,
+        start: "top top",
+        end: () => `+=${getScrollDistance()}`,
         pin: true,
         scrub: 1,
         anticipatePin: 1, // prevents flicker on fast scroll
@@ -47,7 +47,7 @@ const Work = () => {
         </div>
         <div ref={projectsRef}>
           {/* Projects */}
-          <div className='flex gap-4 lg:gap-8 ms-4 lg:ms-[40%] mt-6'>
+          <div className='flex w-max gap-4 lg:gap-8 ps-4 lg:ps-[40vw] pe-4 lg:pe-12 mt-6'>
             {projects.map(({ id, name, image, link }) => {
               const Tag = link ? "a" : "div";
               return (
