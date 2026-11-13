@@ -49,12 +49,11 @@ const ConsentBanner = () => {
     >
       <div className="pointer-events-auto w-full max-w-3xl bg-white text-black rounded-2xl shadow-2xl shadow-black/40 border border-black/10 px-5 py-4 sm:px-6 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6">
         <div className="flex-1 min-w-0">
-          <h2 id="cookie-title" className="font-heading font-bold text-base leading-tight">
-            A quick note on cookies 🍪
+          <h2 id="cookie-title" className="font-body font-medium text-base leading-tight">
+            Cookies 🍪
           </h2>
           <p id="cookie-desc" className="text-[13px] leading-relaxed mt-1 text-black/70">
-            This site only uses minimal local storage to remember choices like
-            this one. No tracking, no ads, no third-party cookies.
+            We only remember your choice on this device. No tracking, no ads.
           </p>
         </div>
         <div className="flex gap-2 shrink-0">
