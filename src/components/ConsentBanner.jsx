@@ -53,7 +53,7 @@ const ConsentBanner = () => {
             Cookies 🍪
           </h2>
           <p id="cookie-desc" className="text-[13px] leading-relaxed mt-1 text-black/70">
-            We only remember your choice on this device. No tracking, no ads.
+            Sadly, these aren't the edible kind. I just save your pick so you never have to see this little guy again.
           </p>
         </div>
         <div className="flex gap-2 shrink-0">
