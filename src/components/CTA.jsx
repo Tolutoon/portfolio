@@ -1,37 +1,21 @@
-import React, { useRef } from 'react'
-import GradientButton from './GradientButton'
-import { gsap } from "gsap";
-import { useGSAP } from '@gsap/react';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(useGSAP,ScrollTrigger);
+import GradientButton from "./GradientButton";
+import Reveal from "./Reveal";
 
 const CTA = () => {
-
-  const ctaRef = useRef(null);
-
-  useGSAP(() => {
-    gsap.from(ctaRef.current, {
-        backgroundColor: "#fff",
-        scrollTrigger: {
-        trigger: ctaRef.current,
-        start: "center bottom",     
-        end: "60% bottom", 
-        scrub: true,
-      },
-    });
-  });
-
   return (
-    <>
-      <div ref={ctaRef} className="transition-colors duration-300 mix-blend-difference">
-        <div className="main-container py-20 lg:py-28 h-full flex flex-col gap-8 justify-center items-center">
-          <h4 className='max-w-6xl text-2xl md:text-3xl xl:text-[40px] 2xl:text-5xl text-center leading-[1.25] mix-blend-difference'>Projects, collaborations and full-time opportunities. Let's get acquainted</h4>
+    <section className="bg-black text-white">
+      <div className="main-container py-24 lg:py-32 flex flex-col gap-8 justify-center items-center text-center">
+        <Reveal>
+          <h2 className="max-w-4xl text-3xl md:text-4xl xl:text-5xl font-heading font-bold leading-[1.15]">
+            Projects, collaborations and full-time opportunities. Let&rsquo;s get acquainted.
+          </h2>
+        </Reveal>
+        <Reveal delay={120}>
           <GradientButton text="Book a Call" link="https://cal.com/tolulola/15min" />
-        </div>
+        </Reveal>
       </div>
-    </>
-  )
-}
+    </section>
+  );
+};
 
-export default CTA
+export default CTA;

@@ -1,38 +1,33 @@
-import React from 'react'
-import star from '../assets/images/star.svg'
+import star from "../assets/images/star.svg";
+
+const WORDS = ["Create", "Design", "Inspire"];
+
+const Row = ({ hidden = false }) => (
+  <div aria-hidden={hidden || undefined} className="flex shrink-0 items-center">
+    {[...WORDS, ...WORDS].map((word, i) => (
+      <span key={i} className="flex items-center shrink-0">
+        <span className="text-6xl lg:text-[7vw] font-heading font-semibold leading-none tracking-tight uppercase px-4 lg:px-8">
+          {word}
+        </span>
+        <img src={star} alt="" loading="lazy" decoding="async" className="marquee-star w-[12vw] sm:w-[8vw] lg:w-[4vw] h-auto shrink-0" />
+      </span>
+    ))}
+  </div>
+);
 
 const Marquee = () => {
   return (
-    <>
-      <div className="overflow-hidden bg-white text-black pb-28 lg:pb-44">
-
-        {/* Row 1 */}
-        <div className="whitespace-nowrap animate-marquee text-6xl lg:text-[7vw] font-heading font-semibold leading-[1] tracking-tight">
-          <span className="flex gap-4 lg:gap-8 mx-8">
-            CREATE <img src={star} alt="" className="marquee-star1 w-[7vw]" /> 
-            DESIGN <img src={star} alt="" className="marquee-star1 w-[7vw]" /> 
-            INSPIRE <img src={star} alt="" className="marquee-star1 w-[7vw]" /> 
-            CREATE <img src={star} alt="" className="marquee-star1 w-[7vw]" /> 
-            DESIGN <img src={star} alt="" className="marquee-star1 w-[7vw]" /> 
-            INSPIRE <img src={star} alt="" className="marquee-star1 w-[7vw]" /> 
-          </span>
-        </div>
-
-        {/* Row 2 (reverse) */}
-        <div className="whitespace-nowrap animate-marquee-reverse text-6xl lg:text-[7vw] font-heading font-semibold leading-[1] tracking-tight">
-          <span className="flex gap-4 lg:gap-8 mx-8">
-            CREATE <img src={star} alt="" className="marquee-star2 w-[7vw]" /> 
-            DESIGN <img src={star} alt="" className="marquee-star2 w-[7vw]" /> 
-            INSPIRE <img src={star} alt="" className="marquee-star2 w-[7vw]" />
-            CREATE <img src={star} alt="" className="marquee-star2 w-[7vw]" /> 
-            DESIGN <img src={star} alt="" className="marquee-star2 w-[7vw]" /> 
-            INSPIRE <img src={star} alt="" className="marquee-star2 w-[7vw]" /> 
-          </span>
-        </div>
-        
+    <section aria-label="Create, design, inspire" className="overflow-hidden bg-white text-black pb-24 lg:pb-32">
+      <div className="marquee-track">
+        <Row />
+        <Row hidden />
       </div>
-    </>
-  )
-}
+      <div className="marquee-track marquee-reverse mt-2 lg:mt-4">
+        <Row />
+        <Row hidden />
+      </div>
+    </section>
+  );
+};
 
-export default Marquee
+export default Marquee;
