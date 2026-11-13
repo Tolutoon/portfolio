@@ -60,14 +60,13 @@ const ConsentBanner = () => {
         <div className="flex gap-2 shrink-0">
           <button
             onClick={() => choose("accepted")}
-            autoFocus
-            className="rounded-full bg-black text-white text-xs font-heading uppercase tracking-wide px-6 py-2 hover:opacity-85 transition-opacity cursor-pointer"
+            className="rounded-full bg-black text-white text-xs font-heading uppercase tracking-wide px-6 py-2 hover:opacity-85 focus-visible:outline-2 focus-visible:outline-offset-2 transition-opacity cursor-pointer"
           >
             Accept
           </button>
           <button
             onClick={() => choose("declined")}
-            className="rounded-full border border-black/20 text-xs font-heading uppercase tracking-wide px-6 py-2 hover:bg-black/5 transition-colors cursor-pointer"
+            className="rounded-full border border-black/20 text-xs font-heading uppercase tracking-wide px-6 py-2 hover:bg-black/5 focus-visible:outline-2 focus-visible:outline-offset-2 transition-colors cursor-pointer"
           >
             Decline
           </button>
