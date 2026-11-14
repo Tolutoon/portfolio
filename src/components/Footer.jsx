@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       <div className="max-w-[1500px] m-auto h-[1px] bg-white opacity-10" />
 
-      <footer className="main-container grid md:grid-cols-2 lg:grid-cols-4 gap-10 py-20">
+      <footer className="main-container grid md:grid-cols-2 lg:grid-cols-3 gap-10 py-20">
         <Link to="/" aria-label="Back to home">
           <img src={Logo} alt="Tolu logo" className="h-10 w-auto" />
         </Link>
@@ -21,13 +21,6 @@ const Footer = () => {
             <li>Illustrations</li>
           </ul>
         </nav>
-        <div>
-          <h2 className="font-medium mb-5">Availability</h2>
-          <ul className="flex flex-col gap-2 text-base lg:text-lg">
-            <li>Mon - Fri: 9:00 - 5:00</li>
-            <li>24/7 WhatsApp &amp; Email</li>
-          </ul>
-        </div>
         <div>
           <h2 className="font-medium mb-5">Contact</h2>
           <ul className="flex flex-col gap-2 text-base lg:text-lg">
